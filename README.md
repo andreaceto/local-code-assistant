@@ -10,27 +10,26 @@ This project demonstrates how to build a ChatGPT-like code assistant using the [
 
 ### How to get Started?
 
-1. Clone the GitHub repository
+1. **Clone the GitHub repository**
+    ```bash
+    git clone https://github.com/andreaceto/local-code-assistant.git
+    ```
+2. **Create a virtual environment and activate it**
+    ```bash
+    python -m venv venv-name
+    venv-name/Scripts/activate  # On MacOS use `source venv-name/bin/activate`
+    ```
+3. **Install the required dependencies**
+    ```bash
+    pip install -r requirements.txt
+    ```
+4. **Download and install the [LM Studio desktop app](https://lmstudio.ai/)**
 
-```bash
-git clone https://github.com/andreaceto/local-code-assistant.git
-```
-2. Create a virtual environment and activate it:
+5. **Open LM Studio and download the Yi-Coder-9B model from the 'Discover' tab** 
 
-```bash
-python -m venv venv-name
-venv-name/Scripts/activate  # On MacOS use `source venv-name/bin/activate`
-```
-3. Install the required dependencies:
+6. **Expose the Yi-Coder-9B model as an OpenAI API by starting the server in LM Studio.** (Follow this [video walkthrough](https://x.com/Saboo_Shubham_/status/1783715814790549683)).
 
-```bash
-pip install -r requirements.txt
-```
-4. Download and install the [LM Studio desktop app](https://lmstudio.ai/). Download the Yi-Coder-9B model from the 'Discover' tab. 
-
-5. Expose the Yi-Coder-9B model as an OpenAI API by starting the server in LM Studio. Watch this [video walkthrough](https://x.com/Saboo_Shubham_/status/1783715814790549683).
-
-6. Run the Streamlit App
-```bash
-streamlit run ai_code_assistant.py
-```
+6. **Run the Streamlit App**
+    ```bash
+    streamlit run ai_code_assistant.py
+    ```
