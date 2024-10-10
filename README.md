@@ -1,7 +1,7 @@
-## 👾💬 AI Code Assistant using [Yi-Coder-9B](https://huggingface.co/lmstudio-community/Yi-Coder-9B-Chat-GGUF)
+## 👾💬 AI Code Assistant using Yi-Coder-9B
 Inspired by [Shubham Saboo](https://github.com/Shubhamsaboo)'s [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 
-This project demonstrates how to build a ChatGPT-like code assistant using the Yi-Coder-9B model running locally on your computer. The application is built using Python and Streamlit, providing a user-friendly interface for interacting with the language model. Best of all, it's 100% free and doesn't require an internet connection!
+This project demonstrates how to build a ChatGPT-like code assistant using the [Yi-Coder-9B](https://huggingface.co/lmstudio-community/Yi-Coder-9B-Chat-GGUF) model running locally on your computer. The application is built using Python and Streamlit, providing a user-friendly interface for interacting with the language model. Best of all, it's 100% free and doesn't require an internet connection!
 
 ### Features
 - Runs locally on your computer without the need for an internet connection and completely free to use.
